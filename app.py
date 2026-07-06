@@ -207,7 +207,7 @@ with st.sidebar:
 
 st.markdown("""
 <h1 class="main-title">
-📈 IntelliTrade AI: Market Forecasting
+📈 Stock Market Prediction: Market Forecasting
 </h1>
 
 <p class="subtitle">
