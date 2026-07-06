@@ -207,7 +207,7 @@ with st.sidebar:
 
 st.markdown("""
 <h1 class="main-title">
-📈 Stock Market Prediction: Market Forecasting
+📈 Stock Market Prediction System: Market Forecasting
 </h1>
 
 <p class="subtitle">
@@ -389,6 +389,8 @@ if file is not None:
         st.markdown("### 📉 ARIMA Prediction")
 
         arima_preds = run_arima(df)
+        st.write("ARIMA Output:", arima_preds)
+        st.write("Length:", len(arima_preds))
 
         arima_preds = np.array(arima_preds).flatten()
 
